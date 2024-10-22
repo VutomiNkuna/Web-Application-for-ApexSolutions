@@ -13,7 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     <body>
          <!--this form is supposed to check this info against a database of users -->
     
-    <form id="loginform" >
+         <form id="loginform" action="login"  method="post">
         <h1>Hello Apex Solutions!</h1>
         <br>
         <label for="username" >Username:<label>
@@ -22,7 +22,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <label for="password">Password:<label>
         <input id="password" type="text">
         <br>
-        <button>Login</button>       
+        <input type="submit" value="login">       
     </form>
     <br>
     <button>Sign up</button>
