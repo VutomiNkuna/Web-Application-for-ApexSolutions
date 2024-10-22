@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
             
             response.sendRedirect("Main.jsp");
         } else {
-            System.out.print("ERRORR WRONG!!!");
+            response.sendRedirect("Main.jsp");
             
             
         }
