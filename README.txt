@@ -7,7 +7,7 @@ Nk is busy figuring out jsp pages rn.
 
 Work allocation:
 
-Nk -
+Nk - Password Hashing, Updating and Restoring from the database
 Vutomi -
 Mckyle -
 . - 

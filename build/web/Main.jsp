@@ -12,9 +12,20 @@
         <title>Main Page</title>
     </head>
     <body>
-        <h1>Hello Main!</h1>
-         <a href='../index.html'>
-        <button>Log Out</button>
+       
+        <%
+            
+            
+            String username = request.getParameter("txtusername");
+            String password = request.getParameter("txtpassword");
+            
+            if (username == "") {
+                   username = "Main!"; 
+                }
+        %>
+        <h1>Hello <%= username %></h1>
+        <a href="index.jsp"><input type="submit" value="Log out" name="btnlogout" action="index.jsp"/></a>
+        
     </a>
 
     </body>
