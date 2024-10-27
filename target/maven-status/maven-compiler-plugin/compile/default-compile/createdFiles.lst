@@ -1,0 +1,4 @@
+SMSAPI.class
+Main.class
+com\mycompany\sen_projectmaven\JakartaRestConfiguration.class
+com\mycompany\sen_projectmaven\resources\JakartaEE10Resource.class
