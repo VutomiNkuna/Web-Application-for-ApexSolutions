@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 public class SMSAPI {
   // Find your Account Sid and Token at twilio.com/console
   public static final String ACCOUNT_SID = "ACb123b6f9ee87c0c30d1b9050e1b49525";
-  public static final String AUTH_TOKEN = "1da2b396a7713ba0df50bcd62018cff6";
+  public static final String AUTH_TOKEN = "[AUTH TOKEN]";//ADD THE AUTH TOKEN HERE
   public static void SendMessage(String txt) {
     Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
     Message message = Message.creator(
