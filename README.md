@@ -1,9 +1,4 @@
 SEN PROJECT 4: API DOCUMENTATION
-Table of Contents
-Why we used the twillio api	1
-Reasons why we decided on a restful api:	1
-What does the API do	2
-How is the API integrated	2
 
 Why we used the Twilio API
 We decided to use the Twilio external API.
