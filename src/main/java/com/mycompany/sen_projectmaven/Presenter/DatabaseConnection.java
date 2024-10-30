@@ -17,10 +17,18 @@ public class DatabaseConnection {
     private static final String URL = "jdbc:postgresql://localhost:5432/ApexDB";
     private static final String USER = "postgres";
     private static final String PASSWORD = "Kaykaykay1_";
+    private static final String DRIVER = "org.postgresql.Driver";
     
     
 
     public static Connection getConnection() throws SQLException {
+        
+        try {
+            Class.forName(DRIVER);
+        } catch (ClassNotFoundException e) {
+            System.out.println("you tried it: " + e.getMessage());
+        }
+        
         
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }

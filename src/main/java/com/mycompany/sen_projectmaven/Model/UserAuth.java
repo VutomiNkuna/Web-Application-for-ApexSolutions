@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class UserAuth {
      public static boolean authenticate(String username, String password) {
         
-         String query = "SELECT * FROM Users WHERE username = ? AND password = ?";
+         String query = "SELECT * FROM \"Users\" WHERE username = ? AND password = ?";
          
          try (Connection connection = DatabaseConnection.getConnection(); PreparedStatement statement = connection.prepareStatement(query)) {
              

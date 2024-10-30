@@ -78,6 +78,8 @@ public class LoginServlet extends HttpServlet {
         
         String username = request.getParameter("txtusername");
         String password = request.getParameter("txtpassword");
+        
+        System.out.println("Trying...");
 
         if (UserAuth.authenticate(username, password)) {
             HttpSession session = request.getSession();
