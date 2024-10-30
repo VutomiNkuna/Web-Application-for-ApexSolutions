@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 Oct 2024, 09:21:13
+    Author     : ntuli
+*/
+:root {
+    --Blue : #28669F ;
+    --LighterBlue : #4A8597 ;
+    --White : #F4F4F4 ; 
+    --Black : #261F26 ;
+    --Orange : #E7954A ; 
+}
+
+tr td:first-child {
+    width: 70px ;
+}
+
+body {
+    background-color: var(--LighterBlue);
+     color: var(--White) ;
+     padding: 20px;
+}
+
+[name="btnsubmit"],[name="btnsignup"] {
+    padding: 5px 20px;
+    background-color: var(--Orange) ;
+    border-radius: 10% ;
+    border: 0px outset var(--White);
+    
+    
+   
+}
+
+#header {
+    text-align: center;
+    color: var(--Black)
+}
+
+hr {
+    color: var(--White)
+}
+

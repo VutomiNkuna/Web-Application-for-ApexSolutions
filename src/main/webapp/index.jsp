@@ -11,11 +11,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        
+        <link href="css/indexStyle.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
-        <h1>Hello Apex Solutions!</h1>
+        <h1 id="header">Hello Apex Solutions!</h1>
+        <hr>
        
         <form name="formlogin" action="LoginServlet" method="POST">
             <table border="0" cellpadding="5">
@@ -31,7 +32,7 @@
                         <td><input type="password" name="txtpassword" id="txtpassword" size="15" /></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td width="15px"></td>
                         <td> <input type="submit" value="Login" name="btnsubmit" /></td>
                     </tr>
                     <tr>
@@ -47,7 +48,18 @@
            
             
         </form>
-        <input type="submit" value="sign up" name="btnsignup" />
+        
+        <table border="0" cellpadding="5">
+            <tbody>
+               <tr>
+                    <td></td>
+                    <td><input type="submit" value="sign up" name="btnsignup" /></td>
+                </tr> 
+            </tbody>
+            
+           
+        </table>
+        
         
     </body>
 </html>
