@@ -53,7 +53,8 @@
             <tbody>
                <tr>
                     <td></td>
-                    <td><input type="submit" value="sign up" name="btnsignup" /></td>
+                    <td> <a href="SignUp.jsp" class="button"><input type="submit" value="sign up" name="btnsignup" /></a>
+                        </td>
                 </tr> 
             </tbody>
             

@@ -34,6 +34,12 @@ body {
    
 }
 
+[name="txtusername"],[name="txtpassword"]{
+    
+    border-width: 10px;
+    border: solid var(--Black);
+}
+
 #header {
     text-align: center;
     color: var(--Black)
