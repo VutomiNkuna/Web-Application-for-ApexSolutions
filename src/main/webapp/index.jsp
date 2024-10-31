@@ -12,7 +12,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="css/indexStyle.css" rel="stylesheet" type="text/css"/>
-
     </head>
     <body>
         <h1 id="header">Hello Apex Solutions!</h1>
@@ -25,11 +24,11 @@
                    
                     <tr>
                         <td>Username:</td>
-                        <td><input type="text" name="txtusername" id="txtusername" size="15" /></td>
+                        <td><input type="text" name="txtusername"  size="15" /></td>
                     </tr>
                     <tr>
                         <td>Password:</td>
-                        <td><input type="password" name="txtpassword" id="txtpassword" size="15" /></td>
+                        <td><input type="password" name="txtpassword"  size="15" /></td>
                     </tr>
                     <tr>
                         <td width="15px"></td>

@@ -18,6 +18,12 @@ tr td:first-child {
     width: 70px ;
 }
 
+[name="txtusername"],[name="txtpassword"]{
+    
+    
+    border-bottom: 2px solid black;
+}
+
 body {
     background-color: var(--LighterBlue);
      color: var(--White) ;
@@ -34,11 +40,7 @@ body {
    
 }
 
-[name="txtusername"],[name="txtpassword"]{
-    
-    border-width: 10px;
-    border: solid var(--Black);
-}
+
 
 #header {
     text-align: center;
